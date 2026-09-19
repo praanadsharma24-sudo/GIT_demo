@@ -1,8 +1,7 @@
-#include<Iostream>
-using namespace std;
+extern "C" int printf(const char*, ...);
 
 int main()
 {
-    cout<<"This is a statement in C++...!"<<endl;
+    printf("This is a statement in C++...!\n");
     return 0;
 }
